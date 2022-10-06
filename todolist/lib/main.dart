@@ -22,7 +22,7 @@ class _MyAppState extends State<HomeScreen> {
     return MaterialApp(
       title: "todo app",
       theme: ThemeData(
-        primaryColor: Colors.greenAccent[700],
+        primaryColor: Colors.grey,
       ),
       home: Home(),
       debugShowCheckedModeBanner: false,
@@ -80,7 +80,7 @@ class _HomeState extends State<Home> {
                     ),
                     borderRadius: BorderRadius.circular(10),
                   ),
-                  tileColor: Colors.indigo[100],
+                  tileColor: Colors.black45,
                   trailing: IconButton(
                     icon: Icon(
                       Icons.delete,
