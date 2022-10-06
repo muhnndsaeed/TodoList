@@ -13,7 +13,7 @@ class addtask extends StatelessWidget {
 
     return Scaffold(
       appBar: AppBar(
-        title: Text("Add Todos"),
+        title: Text("Add Task"),
         backgroundColor: Colors.grey,
       ),
       body: Container(
